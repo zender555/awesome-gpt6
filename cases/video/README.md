@@ -9,3 +9,10 @@
 | [HyperFrames 创作展示](hyperframes-showcase.md) | 聚合页转述，原帖待核对 | 未复现 |
 
 [提交首个可核实案例](https://github.com/zender555/awesome-gpt6/issues/new?template=submit-case.yml) · [返回首页](../../README.md)
+
+## 新增案例与线索
+
+| 案例 | 来源 | 复现 |
+| :--- | :--- | :--- |
+| [Nate Herk：让 Astra 独立完成一整支 YouTube 视频](astra-made-this-video.md) | 作者自述 | 未复现 |
+<!-- curator:entries -->
