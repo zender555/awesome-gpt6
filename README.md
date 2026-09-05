@@ -84,6 +84,8 @@
 
 **熟悉 Git？** Fork 本仓库 → 复制 [案例模板](templates/case.md) → 添加条目和分类索引 → 提交 Pull Request。详见 [贡献指南](CONTRIBUTING.md)。
 
+**交给其他 Agent？** 使用 [Awesome GPT6 策展与发布 Skill](skills/awesome-gpt6-curator/SKILL.md)，完成搜索核验、严格格式整理、GitHub 接入、上传发布与断线恢复。见 [调用与安装说明](docs/maintaining.md)。
+
 也欢迎[修正信息或报告失效链接](https://github.com/zender555/awesome-gpt6/issues/new?template=correction.yml)。投稿不会自动成为精选，引用他人作品请保留署名与出处。
 
 ## 资料与致谢

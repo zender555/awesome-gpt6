@@ -12,6 +12,19 @@
 
 ## 给其他模型的任务
 
+仓库内已提供完整 [awesome-gpt6-curator Skill](../skills/awesome-gpt6-curator/SKILL.md)。其他 Agent 可直接读取此文件，无需安装；需要个人 Skill 时，将整个 `skills/awesome-gpt6-curator` 文件夹复制到该 Agent 的 skills 目录。默认 Codex 个人路径为 `~/.codex/skills/awesome-gpt6-curator`；若设置了 CODEX_HOME，则使用其 skills 子目录。
+
+可直接交接：
+
+```text
+请读取 skills/awesome-gpt6-curator/SKILL.md，搜集最多 3 个 GPT-6 的游戏制作案例。
+核验原始来源，按结构化采集表整理，检查去重、提示词出处和复现状态。
+审核通过后发布到 zender555/awesome-gpt6，保留现有首页风格。
+若上传中断，按发布清单核对远端再恢复，最后报告提交链接与检查结果。
+```
+
+已安装 Skill 的 Agent 可以把第一句换成“使用 `$awesome-gpt6-curator`”。如果只想先看资料而不发布，将“审核通过后发布”改为“只准备本地修改，不发布”。
+
 ```text
 请维护这个 awesome-gpt6 仓库。先读 AGENTS.md、CONTRIBUTING.md。
 这次只查找 [分类] 的最多 3 个新案例，优先原作者和官方来源。
@@ -34,7 +47,7 @@
 
 ## 检查范围
 
-`node scripts/check.mjs` 使用 Node.js 标准库，检查 Markdown 相对文件链接、显式锚点、案例栏目、大小限制与 UTF-8 文本基本规范。GitHub Actions 在 push / PR 时运行同一命令。
+`node scripts/check.mjs` 使用 Node.js 标准库，检查 Markdown 相对文件链接、显式锚点、案例栏目、大小限制与 UTF-8 文本基本规范。GitHub Actions 还运行策展 Skill 的 `check`，核对新增结构化记录与 Markdown、索引的一致性。均不调用付费模型。
 
 它不访问互联网，不判断案例真假、授权情况或作品质量；这些由维护者人工审核。YAML 表单还应在 GitHub 的新建 Issue 页面实际确认。
 

@@ -2,6 +2,8 @@
 
 This is a lightweight, Chinese-first GitHub collection, not an application.
 
+- For collection, GitHub access, upload, publication or interrupted-release recovery, read `skills/awesome-gpt6-curator/SKILL.md` and follow its applicable workflow. It is usable directly from this repository without a personal installation.
+
 - Read CONTRIBUTING.md and docs/maintaining.md before adding content.
 - Add at most 3–5 cases per collection task unless the user asks for more.
 - Use templates/case.md. Update the category index. Keep the homepage selective.

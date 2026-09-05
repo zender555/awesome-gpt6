@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome GPT6 ���ϲ�չ�뷢��"
+  short_description: "�������鰸�����ϸ����ɸ�ʽ������ GitHub ��Ȩ����֤�������"
+  default_prompt: "ʹ�� $awesome-gpt6-curator Ϊ awesome-gpt6 �Ѽ���� 3 ���°�����������Դ����ģ������������������������ҳ�Ӿ���"
