@@ -27,12 +27,38 @@
 
 ## 四个创作方向
 
-| 方向 | 探索什么 | 从这里开始 |
-| :--- | :--- | :--- |
-| **01 / 3D** | Blender、CAD、可编辑模型与场景 | [建模案例](cases/3d/README.md) |
-| **02 / WEB** | 网站、交互界面与前端实现 | [网页案例](cases/web/README.md) |
-| **03 / FILM** | 动效、分镜、程序化视频与剪辑工作流 | [视频案例](cases/video/README.md) |
-| **04 / PLAY** | 游戏原型、玩法与可玩体验 | [游戏案例](cases/games/README.md) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="cases/3d/README.md"><img src="assets/category-3d.jpg" alt="3D 建模概念插画：可编辑建筑的微缩模型，呈现结构、材质与空间" width="100%"></a>
+      <h3>01 / 3D · 从形状到空间</h3>
+      <p>Blender、CAD、可编辑模型与场景。让一个想法拥有形体、材质和尺度。</p>
+      <p><a href="cases/3d/README.md"><strong>探索建模案例 →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="cases/web/README.md"><img src="assets/category-web.jpg" alt="网页设计概念插画：层叠的立体浏览器界面与交互组件" width="100%"></a>
+      <h3>02 / WEB · 让界面回应你</h3>
+      <p>网站、交互界面与前端实现。把信息、视觉和操作，组织成自然的体验。</p>
+      <p><a href="cases/web/README.md"><strong>探索网页案例 →</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="cases/video/README.md"><img src="assets/category-video.jpg" alt="视频制作概念插画：电影摄影机、胶片曲线与剪辑时间轴" width="100%"></a>
+      <h3>03 / FILM · 把时间变成画面</h3>
+      <p>动效、分镜、程序化视频与剪辑工作流。让画面沿着节奏展开。</p>
+      <p><a href="cases/video/README.md"><strong>探索视频创作 →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="cases/games/README.md"><img src="assets/category-games.jpg" alt="游戏开发概念插画：微缩赛道、城堡、收集物与游戏手柄" width="100%"></a>
+      <h3>04 / PLAY · 创造一个可玩的世界</h3>
+      <p>游戏原型、玩法与可玩体验。从一个有趣的机制，走向真正想玩的作品。</p>
+      <p><a href="cases/games/README.md"><strong>探索游戏案例 →</strong></a></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>四张栏目配图为 AI 生成的概念插画，用于视觉导航，并非收录案例的实际截图。<a href="assets/generation-prompts.md">查看素材说明与生成提示词</a></sub></p>
 
 <a id="collection"></a>
 
